@@ -1,0 +1,36 @@
+<table border="1">
+<tr>
+    <td><input type="button" value="c" (click)=clear()/></td>
+    <td><input type="text" id="test" size="8px" [(ngModel)]="inputValue"/></td>
+</tr>
+</table>
+
+<table border="1">
+<tr>
+    <td><input type="button" value="7" (click)=display($event) /> </td>
+    <td><input type="button" value="8" (click)=display($event)/> </td>
+    <td><input type="button" value="9" (click)=display($event)/> </td>
+    <td><input type="button" value="*" (click)=display($event)/> </td>
+</tr>
+
+<tr>
+    <td><input type="button" value="4" (click)=display($event)/> </td>
+    <td><input type="button" value="5" (click)=display($event)/> </td>
+    <td><input type="button" value="6" (click)=display($event)/> </td>
+    <td><input type="button" value="-" (click)=display($event)/> </td>
+</tr>
+
+<tr>
+    <td><input type="button" value="3" (click)=display($event)/> </td>
+    <td><input type="button" value="2" (click)=display($event)/> </td>
+    <td><input type="button" value="1" (click)=display($event)/> </td>
+    <td><input type="button" value="+" (click)=display($event)/> </td>
+</tr>
+
+<tr>
+    <td><input type="button" value="=" (click)=calculate()/> </td>
+    <td><input type="button" value="0" (click)=display($event)/> </td>
+    <td><input type="button" value="." (click)=display($event)/> </td>
+    <td><input type="button" value="/" (click)=display($event)/> </td>
+</tr>
+</table>
